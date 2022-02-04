@@ -1,5 +1,6 @@
 from .addins import existing, folder
 from .apiExplorer import entry as api_explorer
+from .camExplorer import entry as cam_explorer
 from .appearances import entry as appearance
 from .attributes import add, all, selected
 from .closeAll import entry as close_all
@@ -14,6 +15,7 @@ commands = [
     data,
     close_all,
     api_explorer,
+    cam_explorer,
     ui_explorer,
     existing, folder,
     appearance,

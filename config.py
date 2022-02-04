@@ -19,12 +19,16 @@ COMPANY_NAME = "Autodesk"
 # Name for a directory in user home to store data
 user_dir_name = f'{ADDIN_NAME}'
 
-# Design Workspace
+# Workspaces
 design_workspace = 'FusionSolidEnvironment'
+manufacture_workspace = 'CAMEnvironment'
 
 # Tabs
 design_tab_id = f'{ADDIN_NAME}_design_tab'
 design_tab_name = f'{ADDIN_NAME}'
+
+manufacture_tab_id = f'{ADDIN_NAME}_manufacture_tab'
+manufacture_tab_name = f'{ADDIN_NAME}'
 
 # Panels
 attributes_panel_name = 'ATTRIBUTES'
@@ -58,6 +62,9 @@ ui_palette_id = f'{ADDIN_NAME}_ui_palette'
 
 api_palette_name = 'Fusion 360 Dev Tools - API Explorer'
 api_palette_id = f'{ADDIN_NAME}_api_palette'
+
+cam_palette_name = 'Fusion 360 Dev Tools - CAM Explorer'
+cam_palette_id = f'{ADDIN_NAME}_cam_palette'
 
 appearance_palette_name = 'Fusion 360 Dev Tools - Appearance Explorer'
 appearance_palette_id = f'{ADDIN_NAME}_appearance_palette'
